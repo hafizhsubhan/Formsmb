@@ -1,4 +1,4 @@
-# Hafizh Subhan Mahdiy XIIRPL5/19 "Formsmb"
+# Hafizh Subhan Mahdiy XIIRPL5/19 4352/1250 "Formsmb"
 <p>Aplikasi untuk melakukan pendaftaran Mahasiswa Baru</p>
 <p>Dengan TextInputLayout, saat ini hanya dapat mengisikan Nama, Telepon, Alamat, Email</p>
 <p>juga dengan Validasi untuk pengisian Nama, Telepon (Harus 12 Digit), alamat dan email</p>
