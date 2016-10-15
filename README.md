@@ -4,7 +4,7 @@
 <p>juga dengan Validasi untuk pengisian Nama, Telepon (Harus 12 Digit), alamat dan email, lahir</p>
 
 <p>apk file</p>
-https://drive.google.com/open?id=0Byqfof7jZQ-7ai0zbHhEYmU5RWc
+https://drive.google.com/open?id=0Byqfof7jZQ-7Vm9OU1pHaXZHLVU
 
 <p>screenshot</p>
  ![SS1](Screenshot_2016-10-15-23-41-01[1].png)
