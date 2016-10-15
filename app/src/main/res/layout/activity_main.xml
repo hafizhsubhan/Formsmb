@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,7 +22,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="10dp"
+        android:paddingBottom="20dp"
         android:text="Isilah Data Dengan Benar!"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
@@ -26,60 +30,77 @@
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.2"
+        android:layout_weight="0.9"
         android:background="@android:color/darker_gray"
         android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         app:srcCompat="@drawable/ic_person_add_black_24dp" />
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextNama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Nama"
         android:inputType="textPersonName"
-        android:text="Nama"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </android.support.design.widget.TextInputLayout>
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editTextTelp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Telepon"
         android:inputType="textPersonName"
-        android:text="Telepon"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </android.support.design.widget.TextInputLayout>
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editTextAlamat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Alamat"
         android:inputType="textPersonName"
-        android:text="Alamat"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </android.support.design.widget.TextInputLayout>
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Email"
         android:inputType="textPersonName"
-        android:text="Email"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
-
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </android.support.design.widget.TextInputLayout>
     <RadioGroup
+        android:id="@+id/radioGroupKelamin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioButtonPria"
             android:layout_width="178dp"
             android:layout_height="wrap_content"
             android:text="Laki-Laki" />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioButtonWanita"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Perempuan" />
@@ -90,11 +111,52 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/editTextTanggal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:hint="Tanggal"
+                android:inputType="numberSigned"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <EditText
+                android:id="@+id/editTextBulan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:hint="Bulan"
+                android:inputType="numberSigned"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <EditText
+                android:id="@+id/editTextTahun"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:hint="Tahun"
+                android:inputType="numberSigned"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBoxSyarat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Saya setuju akan Syarat dan Ketentuan"
         android:textSize="10sp" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEXT >" />
+
+    </LinearLayout>
+</ScrollView>
