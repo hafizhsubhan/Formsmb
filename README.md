@@ -7,11 +7,11 @@
 https://drive.google.com/open?id=0Byqfof7jZQ-7Vm9OU1pHaXZHLVU
 
 <p>screenshot</p>
- ![SS1](Screenshot_2016-10-15-23-41-01[1].png)
+ ![SS1](Update1.png)
  <br>
- ![SS2](Screenshot_2016-10-15-23-41-21[1].png)
+ ![SS2](Update2.png)
  <br>
- ![SS3](Screenshot_2016-10-15-23-43-51[1].png)
+ ![SS3](Update3.png)
 
 
 
