@@ -5,9 +5,9 @@
 **Hafizh Subhan Mahdiy**<br>
 XIIRPL-5 (19)<br>
 43521250.063
-<p>Aplikasi untuk melakukan pendaftaran Mahasiswa Baru</p>
-<p>Seluruh widget sudah berfungsi dengan baik</p>
-<p>juga dengan Validasi untuk pengisian Nama, Telepon (Harus 12 Digit), alamat dan email, lahir</p>
+- Aplikasi untuk melakukan pendaftaran Mahasiswa Baru</p>
+- Seluruh widget sudah berfungsi dengan baik</p>
+- juga dengan Validasi untuk pengisian Nama, Telepon (Harus 12 Digit), alamat dan email, lahir</p>
 
 <p>apk file</p>
 https://drive.google.com/open?id=0Byqfof7jZQ-7Vm9OU1pHaXZHLVU
