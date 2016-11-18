@@ -1,4 +1,10 @@
-# Hafizh Subhan Mahdiy XIIRPL5/19 4352/1250 "Formsmb"
+### HAFIZH SUBHAN MAHDIY
+### SMK TELKOM MALANG
+*The Real Informatics School*
+
+**Hafizh Subhan Mahdiy**<br>
+XIIRPL-5 (19)<br>
+43521250.063
 <p>Aplikasi untuk melakukan pendaftaran Mahasiswa Baru</p>
 <p>Seluruh widget sudah berfungsi dengan baik</p>
 <p>juga dengan Validasi untuk pengisian Nama, Telepon (Harus 12 Digit), alamat dan email, lahir</p>
